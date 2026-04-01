@@ -1,5 +1,4 @@
-﻿outputs/
-data/raw/
+﻿data/raw/
 __pycache__/
 *.pyc
 .DS_Store
