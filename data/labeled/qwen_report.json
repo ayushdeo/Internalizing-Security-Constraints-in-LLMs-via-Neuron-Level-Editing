@@ -1,0 +1,38 @@
+{
+  "input_file": "data\\outputs\\Qwen_Qwen2.5_Coder_1.5B_Instruct.jsonl",
+  "output_file": "data\\labeled\\qwen_labeled.jsonl",
+  "total_samples": 500,
+  "summary": {
+    "python_like": 451,
+    "insecure_pattern": 35,
+    "data_exposure": 18,
+    "package_hallucination": 2,
+    "language_drift": 1
+  },
+  "bucket_summary": {
+    "mbpp": {
+      "python_like": 85
+    },
+    "adversarial": {
+      "python_like": 64,
+      "insecure_pattern": 14,
+      "data_exposure": 10
+    },
+    "humaneval": {
+      "python_like": 164,
+      "insecure_pattern": 1
+    },
+    "security_aware": {
+      "python_like": 89,
+      "insecure_pattern": 11,
+      "data_exposure": 7,
+      "package_hallucination": 2,
+      "language_drift": 1
+    },
+    "vulnerability": {
+      "python_like": 49,
+      "insecure_pattern": 9,
+      "data_exposure": 1
+    }
+  }
+}

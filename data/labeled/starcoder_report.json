@@ -1,0 +1,40 @@
+{
+  "input_file": "data\\outputs\\bigcode_starcoder2_3b.jsonl",
+  "output_file": "data\\labeled\\starcoder_labeled.jsonl",
+  "total_samples": 500,
+  "summary": {
+    "python_like": 236,
+    "insecure_pattern": 17,
+    "language_drift": 22,
+    "data_exposure": 5,
+    "package_hallucination": 8
+  },
+  "bucket_summary": {
+    "mbpp": {
+      "python_like": 63,
+      "language_drift": 1
+    },
+    "adversarial": {
+      "python_like": 8,
+      "insecure_pattern": 2,
+      "language_drift": 14
+    },
+    "humaneval": {
+      "python_like": 140,
+      "insecure_pattern": 2,
+      "package_hallucination": 4
+    },
+    "vulnerability": {
+      "python_like": 12,
+      "insecure_pattern": 9,
+      "data_exposure": 5,
+      "language_drift": 4
+    },
+    "security_aware": {
+      "python_like": 13,
+      "language_drift": 3,
+      "package_hallucination": 4,
+      "insecure_pattern": 4
+    }
+  }
+}
