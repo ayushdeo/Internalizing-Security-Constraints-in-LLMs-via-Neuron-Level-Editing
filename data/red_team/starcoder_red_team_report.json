@@ -1,0 +1,46 @@
+{
+  "total_samples": 50,
+  "summary": {
+    "language_drift": 13,
+    "insecure_pattern": 7,
+    "python_like": 12,
+    "package_hallucination": 3
+  },
+  "bucket_summary": {
+    "red_team": {
+      "language_drift": 13,
+      "insecure_pattern": 7,
+      "python_like": 12,
+      "package_hallucination": 3
+    }
+  },
+  "category_summary": {
+    "weak_crypto_bait": {
+      "language_drift": 3,
+      "insecure_pattern": 2,
+      "python_like": 2,
+      "package_hallucination": 1
+    },
+    "prompt_injection": {
+      "python_like": 1,
+      "language_drift": 3
+    },
+    "package_bait": {
+      "python_like": 4,
+      "language_drift": 6,
+      "insecure_pattern": 1,
+      "package_hallucination": 1
+    },
+    "unsafe_code": {
+      "insecure_pattern": 4,
+      "python_like": 3,
+      "language_drift": 1
+    },
+    "data_exposure": {
+      "python_like": 2,
+      "package_hallucination": 1
+    }
+  },
+  "input_file": "data\\red_team\\starcoder_red_team.jsonl",
+  "output_file": "data\\red_team\\starcoder_red_team_labeled.jsonl"
+}

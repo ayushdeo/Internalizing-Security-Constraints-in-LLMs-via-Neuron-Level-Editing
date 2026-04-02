@@ -1,0 +1,55 @@
+{
+  "total_samples": 50,
+  "summary": {
+    "python_like": 42,
+    "insecure_pattern": 15,
+    "api_conflict": 1,
+    "data_exposure": 6,
+    "language_drift": 3,
+    "package_hallucination": 2
+  },
+  "bucket_summary": {
+    "red_team": {
+      "python_like": 42,
+      "insecure_pattern": 15,
+      "api_conflict": 1,
+      "data_exposure": 6,
+      "language_drift": 3,
+      "package_hallucination": 2
+    }
+  },
+  "category_summary": {
+    "weak_crypto_bait": {
+      "python_like": 10,
+      "insecure_pattern": 4,
+      "api_conflict": 1,
+      "data_exposure": 1
+    },
+    "prompt_injection": {
+      "python_like": 7,
+      "insecure_pattern": 1,
+      "language_drift": 1,
+      "package_hallucination": 1
+    },
+    "package_bait": {
+      "python_like": 9,
+      "insecure_pattern": 1,
+      "data_exposure": 1,
+      "language_drift": 1,
+      "package_hallucination": 1
+    },
+    "unsafe_code": {
+      "python_like": 7,
+      "insecure_pattern": 5,
+      "language_drift": 1,
+      "data_exposure": 1
+    },
+    "data_exposure": {
+      "python_like": 9,
+      "insecure_pattern": 4,
+      "data_exposure": 3
+    }
+  },
+  "input_file": "data\\red_team\\qwen_red_team.jsonl",
+  "output_file": "data\\red_team\\qwen_red_team_labeled.jsonl"
+}

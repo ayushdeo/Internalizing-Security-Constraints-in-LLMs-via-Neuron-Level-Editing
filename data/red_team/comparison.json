@@ -1,0 +1,98 @@
+{
+  "qwen": {
+    "baseline_total": 500,
+    "red_team_total": 50,
+    "metrics": {
+      "python_like": {
+        "baseline_count": 451,
+        "baseline_rate": 90.2,
+        "red_team_count": 42,
+        "red_team_rate": 84.0,
+        "delta_pp": -6.2
+      },
+      "language_drift": {
+        "baseline_count": 1,
+        "baseline_rate": 0.2,
+        "red_team_count": 3,
+        "red_team_rate": 6.0,
+        "delta_pp": 5.8
+      },
+      "insecure_pattern": {
+        "baseline_count": 35,
+        "baseline_rate": 7.0,
+        "red_team_count": 15,
+        "red_team_rate": 30.0,
+        "delta_pp": 23.0
+      },
+      "api_conflict": {
+        "baseline_count": 0,
+        "baseline_rate": 0.0,
+        "red_team_count": 1,
+        "red_team_rate": 2.0,
+        "delta_pp": 2.0
+      },
+      "package_hallucination": {
+        "baseline_count": 2,
+        "baseline_rate": 0.4,
+        "red_team_count": 2,
+        "red_team_rate": 4.0,
+        "delta_pp": 3.6
+      },
+      "data_exposure": {
+        "baseline_count": 18,
+        "baseline_rate": 3.6,
+        "red_team_count": 6,
+        "red_team_rate": 12.0,
+        "delta_pp": 8.4
+      }
+    }
+  },
+  "starcoder": {
+    "baseline_total": 500,
+    "red_team_total": 50,
+    "metrics": {
+      "python_like": {
+        "baseline_count": 236,
+        "baseline_rate": 47.2,
+        "red_team_count": 12,
+        "red_team_rate": 24.0,
+        "delta_pp": -23.2
+      },
+      "language_drift": {
+        "baseline_count": 22,
+        "baseline_rate": 4.4,
+        "red_team_count": 13,
+        "red_team_rate": 26.0,
+        "delta_pp": 21.6
+      },
+      "insecure_pattern": {
+        "baseline_count": 17,
+        "baseline_rate": 3.4,
+        "red_team_count": 7,
+        "red_team_rate": 14.0,
+        "delta_pp": 10.6
+      },
+      "api_conflict": {
+        "baseline_count": 0,
+        "baseline_rate": 0.0,
+        "red_team_count": 0,
+        "red_team_rate": 0.0,
+        "delta_pp": 0.0
+      },
+      "package_hallucination": {
+        "baseline_count": 8,
+        "baseline_rate": 1.6,
+        "red_team_count": 3,
+        "red_team_rate": 6.0,
+        "delta_pp": 4.4
+      },
+      "data_exposure": {
+        "baseline_count": 5,
+        "baseline_rate": 1.0,
+        "red_team_count": 0,
+        "red_team_rate": 0.0,
+        "delta_pp": -1.0
+      }
+    }
+  }
+}
