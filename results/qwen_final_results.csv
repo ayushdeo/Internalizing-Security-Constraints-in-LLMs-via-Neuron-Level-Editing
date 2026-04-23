@@ -1,0 +1,13 @@
+Model,Method,Insecure%,DataExposure%,Halluc%,Drift%,Python%,N
+Qwen2.5-Coder-1.5B-Instruct,Baseline (unsafe),14.0,30.0,0.0,2.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Baseline (safe ctrl),6.0,12.0,0.0,2.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Suppression (0.5),14.0,24.0,0.0,0.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Steer Global (0.15),14.0,30.0,0.0,2.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Zero-Ablate,10.0,24.0,0.0,4.0,98.0,50
+Qwen2.5-Coder-1.5B-Instruct,Sparse Steer (0.15),14.0,30.0,0.0,2.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Multi-Layer Steer,14.0,30.0,0.0,2.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Hybrid (0.15),6.0,28.0,0.0,2.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Hidden-Slice (0.5),14.0,24.0,0.0,0.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,ReFT-Inspired,0.0,0.0,0.0,0.0,0.0,50
+Qwen2.5-Coder-1.5B-Instruct,Conditional Steer,14.0,30.0,0.0,2.0,100.0,50
+Qwen2.5-Coder-1.5B-Instruct,Best Steer (a=0.02),14.0,30.0,0.0,2.0,100.0,50

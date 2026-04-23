@@ -1,0 +1,21 @@
+Method,Metric,Mean%,CI_low,CI_high,McNemar_p,Sig
+Baseline (unsafe),insecure_rate,14.0,6.0,24.0,nan,--
+Baseline (unsafe),python_valid_rate,100.0,100.0,100.0,nan,--
+Suppression (0.5),insecure_rate,14.0,6.0,24.0,0.7518,ns
+Suppression (0.5),python_valid_rate,100.0,100.0,100.0,1.0,ns
+Steer Global (0.15),insecure_rate,14.0,6.0,24.0,1.0,ns
+Steer Global (0.15),python_valid_rate,100.0,100.0,100.0,1.0,ns
+Zero-Ablate,insecure_rate,10.0,2.0,18.0,0.7518,ns
+Zero-Ablate,python_valid_rate,98.0,92.0,100.0,1.0,ns
+Sparse Steer (0.15),insecure_rate,14.0,6.0,24.0,1.0,ns
+Sparse Steer (0.15),python_valid_rate,100.0,100.0,100.0,1.0,ns
+Multi-Layer Steer,insecure_rate,14.0,6.0,24.0,1.0,ns
+Multi-Layer Steer,python_valid_rate,100.0,100.0,100.0,1.0,ns
+Hybrid (0.15),insecure_rate,6.0,0.0,14.0,0.1336,ns
+Hybrid (0.15),python_valid_rate,100.0,100.0,100.0,1.0,ns
+Hidden-Slice (0.5),insecure_rate,14.0,6.0,24.0,0.7518,ns
+Hidden-Slice (0.5),python_valid_rate,100.0,100.0,100.0,1.0,ns
+ReFT-Inspired,insecure_rate,0.0,0.0,0.0,0.0233,*
+ReFT-Inspired,python_valid_rate,0.0,0.0,0.0,0.0,***
+Conditional Steer,insecure_rate,14.0,6.0,24.0,1.0,ns
+Conditional Steer,python_valid_rate,100.0,100.0,100.0,1.0,ns

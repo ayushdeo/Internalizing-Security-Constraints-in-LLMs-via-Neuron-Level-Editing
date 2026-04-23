@@ -1,0 +1,90 @@
+{
+  "Baseline (unsafe)": {
+    "insecure_rate": 14.000000000000002,
+    "data_exposure_rate": 30.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 2.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "Baseline (safe ctrl)": {
+    "insecure_rate": 6.0,
+    "data_exposure_rate": 12.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 2.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "Suppression (0.5)": {
+    "insecure_rate": 14.000000000000002,
+    "data_exposure_rate": 24.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 0.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "Steer Global (0.15)": {
+    "insecure_rate": 14.000000000000002,
+    "data_exposure_rate": 30.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 2.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "Zero-Ablate": {
+    "insecure_rate": 10.0,
+    "data_exposure_rate": 24.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 4.0,
+    "python_valid_rate": 98.0,
+    "n": 50
+  },
+  "Sparse Steer (0.15)": {
+    "insecure_rate": 14.000000000000002,
+    "data_exposure_rate": 30.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 2.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "Multi-Layer Steer": {
+    "insecure_rate": 14.000000000000002,
+    "data_exposure_rate": 30.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 2.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "Hybrid (0.15)": {
+    "insecure_rate": 6.0,
+    "data_exposure_rate": 28.000000000000004,
+    "hallucination_rate": 0.0,
+    "drift_rate": 2.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "Hidden-Slice (0.5)": {
+    "insecure_rate": 14.000000000000002,
+    "data_exposure_rate": 24.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 0.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  },
+  "ReFT-Inspired": {
+    "insecure_rate": 0.0,
+    "data_exposure_rate": 0.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 0.0,
+    "python_valid_rate": 0.0,
+    "n": 50
+  },
+  "Conditional Steer": {
+    "insecure_rate": 14.000000000000002,
+    "data_exposure_rate": 30.0,
+    "hallucination_rate": 0.0,
+    "drift_rate": 2.0,
+    "python_valid_rate": 100.0,
+    "n": 50
+  }
+}
